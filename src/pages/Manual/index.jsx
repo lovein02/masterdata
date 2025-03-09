@@ -9,28 +9,28 @@ export default function Manual() {
           <li className={`${styles.navItem} ${styles.dropdown}`}>
             <Link href="#">Frente de Caixa</Link>
             <div className={styles.dropdownContent}>
-              <Link href="/Manual/LoginFrenteCaixa">Login / Fechamento PDV</Link>
-              <Link href="/Manual/BaixaDeAbastecimentos">Baixa de Abastecimentos</Link>
-              <Link href="/formaRecebimento">Forma de Recebimento</Link>
-              <Link href="/vendaDeItens">Venda de Itens</Link>
-              <Link href="/baixaRapidaDeAbastecimentos">Baixa rápida de Abastecimentos</Link>
-              <Link href="/cancelamentoDeVenda">Cancelamento de Venda</Link>
-              <Link href="/nfeNoFrenteDeCaixa">Emitindo NFe no PDV</Link>
-              <Link href="/AdiantamentoDeCliente">Adiantamento de Cliente</Link>
-              <Link href="/monitoramentoPista">Cadastro de cartão IDF no PDV</Link>
-              <Link href="/consultasERelatorios">Consultas e Relatórios</Link>
+              <Link href="/Manual/FrenteDeCaixa/LoginFrenteCaixa">Login / Fechamento PDV</Link>
+              <Link href="/Manual/FrenteDeCaixa/BaixaDeAbastecimentos">Baixa de Abastecimentos</Link>
+              <Link href="/Manual/FrenteDeCaixa/FormaDeRecebimento">Forma de Recebimento</Link>
+              <Link href="/Manual/FrenteDeCaixa/VendaDeItens">Venda de Itens</Link>
+              <Link href="/Manual/FrenteDeCaixa/BaixaRapidaDeAbastecimentos">Baixa rápida de Abastecimentos</Link>
+              <Link href="/Manual/FrenteDeCaixa/CancelamentoDeVenda">Cancelamento de Venda</Link>
+              <Link href="/Manual/FrenteDeCaixa/NfeNoFrenteDeCaixa">Emitindo NFe no PDV</Link>
+              {/*<Link href="/AdiantamentoDeCliente">Adiantamento de Cliente</Link>
+              <Link href="/monitoramentoPista">Cadastro de cartão IDF no PDV</Link>*/}
+              <Link href="/Manual/FrenteDeCaixa/ConsultasERelatorios">Consultas e Relatórios</Link>
             </div>
           </li>
           <li className={`${styles.navItem} ${styles.dropdown}`}>
             <Link href="#">Corporativo</Link>
             <div className={styles.dropdownContent}>
-              <Link href="/cadastropessoa">Cadastro Pessoa</Link>
-              <Link href="/cadastrocliente">Cadastro Cliente</Link>
-              <Link href="#">Cadastro Cliente Simplificado</Link>
-              <Link href="#">Classe de Cliente</Link>
-              <Link href="#">Contrato de Crédito</Link>
-              <Link href="#">Cadastro de Colaborador</Link>
-              <Link href="#">Cadastro de Usuário</Link>
+              <Link href="/Manual/Corporativo/CadastroDePessoa">Cadastro Pessoa</Link>
+              <Link href="/Manual/Corporativo/CadastroDeCliente">Cadastro Cliente</Link>
+              <Link href="/Manual/Corporativo/CadastroDeClienteSimplificado">Cadastro Cliente Simplificado</Link>
+              <Link href="/Manual/Corporativo/ClasseDeCliente">Classe de Cliente</Link>
+              <Link href="/Manual/Corporativo/ContratoDeCredito">Contrato de Crédito</Link>
+              <Link href="/Manual/Corporativo/CadastroDeColaborador">Cadastro de Colaborador</Link>
+              <Link href="/Manual/Corporativo/CadastroDeUsuario">Cadastro de Usuário</Link>
             </div>
           </li>
           <li className={`${styles.navItem} ${styles.dropdown}`}>
