@@ -8,15 +8,18 @@ export default function CadastroDeClienteSimplificado() {
       <main className={styles.main}>
         <section className={styles.section}>
           <h2 className={styles.title2}>Cadastro de Cliente Simplificado</h2>
-          <div className={styles.container}>
-            <div className={styles.column}>
-             
-            </div>
+          <iframe
+            className={styles.videoYoutube}
+            src="https://www.youtube.com/embed/R2hXTBGcyfg&t=68s"
+            title="YouTube video player - Cadastro de Cliente"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          {/*<div className={styles.container}>
+            <div className={styles.column}></div>
 
-            <div className={styles.column}>
-            
-            </div>
-          </div>
+            <div className={styles.column}></div>
+          </div>*/}
         </section>
       </main>
     </>
