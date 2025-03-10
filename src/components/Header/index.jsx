@@ -18,7 +18,7 @@ export function Header() {
         </Link>
             <ul className={styles.navBar}>
             <Link href="/" className={styles.navItem}> Inicio </Link>
-            <Link href="/Produtos" className={styles.navItem}> Produtos </Link>
+            {/*<Link href="/Produtos" className={styles.navItem}> Produtos </Link>*/}
             <Link href="/Manual" className={styles.navItem}> Manual </Link>
            {/* <Link href="/Sobre" className={styles.navItem}> Sobre </Link>*/}
             </ul>

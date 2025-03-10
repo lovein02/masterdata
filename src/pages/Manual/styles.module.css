@@ -16,9 +16,11 @@
     font-size: 18px;
     color: #f1f1f1;
     padding: 10px;
+
 }
 .navItem:hover {
     cursor: pointer;
+    text-shadow: 0 0 4px #dbfdff;
 }
 
 .dropdownContent {

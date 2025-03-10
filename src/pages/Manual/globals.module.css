@@ -11,12 +11,15 @@
 }
 
 .title2 {
-  color: #1f1f1f;
-  font-size: 32px;
+  color: #ffffff;
+  font-size: 35px;
+  background: #6CBF69;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 .title3 {
-  color: #016fff;
+  color: #03318C;
   font-size: 25px;
 }
 
@@ -62,11 +65,18 @@
     grid-template-columns: 1fr;
   }
   .title2 {
-    color: #1f1f1f;
+    color: #ffffff;
     font-size: 22px;
   }
   .title3 {
-    color: #016fff;
+    color: #03318C;
     font-size: 20px;
+  }
+  .videoYoutube{
+    width: auto;
+    height: 315px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: auto;
   }
 }
