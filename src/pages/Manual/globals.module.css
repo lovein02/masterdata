@@ -72,6 +72,13 @@
     color: #03318C;
     font-size: 20px;
   }
+
+  .p1 {
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: justify;
+  }
+
   .videoYoutube{
     width: auto;
     height: 315px;
